@@ -24,3 +24,6 @@ Thumbs.db
 # Ignore dependency lock files
 yarn.lock
 package-lock.json
+
+
+.sass-cache/
