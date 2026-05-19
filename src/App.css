@@ -1,0 +1,13 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+  main {
+    gap: 8rem;
+    padding-bottom: 6rem;
+  }
+}
