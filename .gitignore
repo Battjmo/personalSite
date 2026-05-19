@@ -1,29 +1,21 @@
-# Ignore node_modules directory
+# Dependencies
 node_modules/
 
-# Ignore build artifacts
+# Build
 dist/
-build/
 
-# Ignore environment-specific files
+# Environment
 .env
 .env.local
 .env.*.local
 
-# Ignore log files
+# Logs
 *.log
 
-# Ignore editor-specific files
+# Editor
 .vscode/
 .idea/
 
-# Ignore OS-specific files
+# OS
 .DS_Store
 Thumbs.db
-
-# Ignore dependency lock files
-yarn.lock
-package-lock.json
-
-
-.sass-cache/
