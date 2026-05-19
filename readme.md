@@ -18,7 +18,11 @@ npm run build
 npm run preview
 ```
 
-Static output is written to `dist/`. Deploy that folder to any static host (GitHub Pages, Netlify, Vercel, etc.).
+Static output is written to `dist/`.
+
+### Vercel
+
+Build settings are in `vercel.json` (no dashboard overrides needed). Push to your connected branch and Vercel will run `npm install`, `npm run build`, and serve `dist/`.
 
 ## Project structure
 
