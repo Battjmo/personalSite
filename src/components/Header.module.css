@@ -3,7 +3,7 @@
   top: 0;
   z-index: 10;
   backdrop-filter: blur(12px);
-  background: rgba(12, 13, 16, 0.75);
+  background: rgba(233, 255, 249, 0.75);
   border-bottom: 1px solid var(--border);
 }
 
@@ -20,6 +20,7 @@
 .logo {
   font-weight: 600;
   letter-spacing: -0.02em;
+  color: var(--accent);
 }
 
 .nav ul {

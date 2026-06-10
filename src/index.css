@@ -1,11 +1,23 @@
 :root {
-  --bg: #0c0d10;
-  --bg-elevated: #14161c;
-  --border: rgba(255, 255, 255, 0.08);
-  --text: #f2f3f7;
-  --text-muted: #9aa3b2;
-  --accent: #6ee7b7;
-  --accent-dim: rgba(110, 231, 183, 0.14);
+  --scarlet: #d64045;
+  --frozen-water: #e9fff9;
+  --frosted-blue: #9ed8db;
+  --rich-cerulean: #467599;
+  --twilight: #1d3354;
+  --black: #000000;
+
+  --bg: var(--frozen-water);
+  --bg-elevated: #ffffff;
+  --border: rgba(29, 51, 84, 0.12);
+  --text: var(--black);
+  --text-muted: var(--rich-cerulean);
+  --accent: var(--scarlet);
+  --accent-dim: rgba(214, 64, 69, 0.12);
+  --secondary: var(--frosted-blue);
+  --header: var(--rich-cerulean);
+  --cta: var(--twilight);
+  --cta-hover: #2a4768;
+  --on-cta: var(--frozen-water);
   --font-sans: "DM Sans", system-ui, sans-serif;
   --font-serif: "Instrument Serif", Georgia, serif;
   --max-width: 72rem;
@@ -30,13 +42,19 @@ body {
   line-height: 1.6;
   color: var(--text);
   background:
-    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(110, 231, 183, 0.12), transparent),
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(158, 216, 219, 0.45), transparent),
     var(--bg);
   -webkit-font-smoothing: antialiased;
 }
 
 #root {
   min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--header);
 }
 
 a {
