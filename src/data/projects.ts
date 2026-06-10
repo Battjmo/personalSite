@@ -6,6 +6,7 @@ export type Project = {
   repo?: string;
   image: string;
   imageAlt: string;
+  imageBackground?: string;
 };
 
 export const projects: Project[] = [
@@ -17,6 +18,7 @@ export const projects: Project[] = [
     href: "https://valquery.ai",
     image: "/images/spear_logo_white.svg",
     imageAlt: "Valquery logo",
+    imageBackground: "#000AFF",
   },
   {
     id: "breakstijl",

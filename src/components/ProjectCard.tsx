@@ -14,6 +14,11 @@ export function ProjectCard({ project, reversed = false }: ProjectCardProps) {
       <a
         href={project.href}
         className={styles.media}
+        style={
+          project.imageBackground
+            ? { background: project.imageBackground }
+            : undefined
+        }
         target="_blank"
         rel="noreferrer"
         tabIndex={-1}
